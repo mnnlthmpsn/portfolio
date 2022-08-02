@@ -1,7 +1,9 @@
 {
   "private": true,
-  "homepage": "https://mnnlthmpsn.github.io/{repo-name}",
+  "homepage": "https://mnnlthmpsn.github.io/portfolio",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "next",
     "build": "next build",
     "start": "next start",
