@@ -1,5 +1,6 @@
 {
   "private": true,
+  "homepage": "https://mnnlthmpsn.github.io/{repo-name}",
   "scripts": {
     "dev": "next",
     "build": "next build",
@@ -16,6 +17,7 @@
     "@types/node": "^12.12.21",
     "@types/react": "^17.0.2",
     "@types/react-dom": "^17.0.1",
+    "gh-pages": "^4.0.0",
     "postcss-preset-env": "^7.7.2",
     "tailwindcss": "^3.1.7",
     "typescript": "4.0"
